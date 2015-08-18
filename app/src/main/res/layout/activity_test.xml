@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	tools:context=".TestActivity"
+	android:fitsSystemWindows="true"
+	>
+
+	<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+		android:title="@string/app_name"
+		/>
+
+	<Button
+		android:id="@+id/drawerBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="ADD DRAWER"
+		android:textStyle="bold"
+		/>
+
+	<Button
+		android:id="@+id/activityBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="LAUNCH SECOND ACTIVITY"
+		android:textStyle="bold"
+		/>
+
+</LinearLayout>
+
